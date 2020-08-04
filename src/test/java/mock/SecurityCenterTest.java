@@ -13,7 +13,7 @@ public class SecurityCenterTest {
     private MockDoorPanel mockDoorPanel;
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         mockDoorPanel = new MockDoorPanel();
         securityCenter = new SecurityCenter(mockDoorPanel);
     }

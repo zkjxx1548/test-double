@@ -4,7 +4,7 @@ public class MockDoorPanel extends DoorPanel{
     private boolean isCalled = false;
 
     @Override
-    void close() {
+    public void close() {
         isCalled = true;
         super.close();
     }
